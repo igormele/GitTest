@@ -9,7 +9,7 @@ int main()
 
 	int rezultat = sestej(&x,&z);
 	
-	printf("hello world");
+	printf("Rezultat = %i\n",rezultat);
 	return 0;
 }
 
