@@ -12,6 +12,8 @@ int main()
 	printf("Rezultat = %i\n",rezultat);
 	printf("Test SSH: ...");
 	printf("Test SSH: ...");
+	printf("Test SSH: ...");
+	
 	return 0;
 }
 
