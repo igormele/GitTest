@@ -10,6 +10,11 @@ int main()
 	int rezultat = sestej(&x,&z);
 	
 	printf("Rezultat = %i\n",rezultat);
+
+	printf("Test SSH1: ...");
+	printf("Test SSH2: ...");
+	printf("Test SSH3: ...");
+	
 	return 0;
 }
 
