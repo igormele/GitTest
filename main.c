@@ -4,7 +4,11 @@ int sestej (int *a, int *b);
 
 int main()
 {
-	printf("hello world");
+	int x = 90;
+	int z = 100;
+
+	int rezultat = sestej(&x,&z);
+	
 	printf("hello world");
 	return 0;
 }
