@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int sestej (int *a, int *b);
+int odstej (double *a, double *b);
 
 int main()
 {
@@ -28,4 +29,8 @@ int main()
 
 int sestej(int *a, int *b){
 	return *a + *b;
+}
+
+double odstej(int *a, int *b){
+	return *a - *b;
 }
