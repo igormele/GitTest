@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int sestej (int *a, int *b);
+
 int odstej (double *a, double *b);
+	//funkcija odsteje a in b
 
 int main()
 {
