@@ -10,6 +10,7 @@ int zmnozi (double *a, double *b);
 
 int pametno(int Xyz);
 {
+	int a = 52;
 	return 0;
 }
 
