@@ -5,6 +5,9 @@ int sestej (int *a, int *b);
 int odstej (double *a, double *b);
 	//funkcija odsteje a in b
 
+int zmnozi (double *a, double *b);
+	//funkcija zmnozi a in b
+
 int main()
 {
 	int x = 90;
