@@ -8,6 +8,11 @@ int odstej (double *a, double *b);
 int zmnozi (double *a, double *b);
 	//funkcija zmnozi a in b
 
+int pametno(int Xyz);
+{
+	return 0;
+}
+
 int main()
 {
 	int x = 90;
