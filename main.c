@@ -5,6 +5,11 @@ int sestej (int *a, int *b);
 int odstej (double *a, double *b);
 	//funkcija odsteje a in b
 
+int pametno(int Xyz);
+{
+	return 0;
+}
+
 int main()
 {
 	int x = 90;
