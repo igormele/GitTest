@@ -33,6 +33,7 @@ int main()
 	printf("Test SSH1: ...");
 	printf("Test SSH2: ..23.");
 	printf("Test SSH3: ...");
+	printf("Test SSH3: ... klemen");
 
 	
 	return 0;
