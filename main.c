@@ -3,10 +3,10 @@
 int sestej (int *a, int *b);
 
 int odstej (double *a, double *b);
-	//funkcija odsteje a in b
+	//funkcija odsteje a in b.
 
 int zmnozi (double *a, double *b);
-	//funkcija zmnozi a in b
+	//funkcija zmnozi a in b.
 
 int pametno(int Xyz);
 {
