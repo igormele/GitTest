@@ -1,13 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int sestej (int *a, int *b);
-
-int odstej (int *a, int *b);
-	//funkcija odsteje a in b.
-
-int zmnozi (double *a, double *b);
-	//funkcija zmnozi a in b.
+#include "constants.h"
+#include "functions.h"
 
 
 int main()
@@ -19,27 +14,8 @@ int main()
 	int rezultat = sestej(&x,&z);
 	
 	printf("Rezultat = %i\n",rezultat);
-
-	printf("Test SSH: ... \n");
-	printf("Test SSH: ...\n");
-	printf("Test SSH: ...\n");
-	printf("Test SSH: ...4556\n");
-	printf("Test SSH: ...\n");
-
-
-	printf("Test SSH1: ...\n");
-	printf("Test SSH2: ..23.\n");
-	printf("Test SSH3: ...\n");
-	printf("Test SSH3: ... klemen\n");
+	printf("Value max: %i\n", VALUE_max(x,z));
 
 	
 	return 0;
-}
-
-int sestej(int *a, int *b){
-	return *a + *b;
-}
-
-int odstej(int *a, int *b){
-	return *a - *b;
 }
