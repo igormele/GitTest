@@ -1,20 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int sestej (int *a, int *b);
 
-int odstej (double *a, double *b);
+int odstej (int *a, int *b);
 	//funkcija odsteje a in b.
 
 int zmnozi (double *a, double *b);
 	//funkcija zmnozi a in b.
 
-int pametno(int Xyz);
-{
-	return 0;
-}
 
 int main()
 {
+
 	int x = 90;
 	int z = 100;
 	int w = 200;
@@ -23,17 +21,17 @@ int main()
 	
 	printf("Rezultat = %i\n",rezultat);
 
-	printf("Test SSH: ...");
-	printf("Test SSH: ...");
-	printf("Test SSH: ...");
-	printf("Test SSH: ...4556");
-	printf("Test SSH: ...");
+	printf("Test SSH: ... \n");
+	printf("Test SSH: ...\n");
+	printf("Test SSH: ...\n");
+	printf("Test SSH: ...4556\n");
+	printf("Test SSH: ...\n");
 
 
-	printf("Test SSH1: ...");
-	printf("Test SSH2: ..23.");
-	printf("Test SSH3: ...");
-	printf("Test SSH3: ... klemen");
+	printf("Test SSH1: ...\n");
+	printf("Test SSH2: ..23.\n");
+	printf("Test SSH3: ...\n");
+	printf("Test SSH3: ... klemen\n");
 
 	
 	return 0;
@@ -43,6 +41,6 @@ int sestej(int *a, int *b){
 	return *a + *b;
 }
 
-double odstej(int *a, int *b){
+int odstej(int *a, int *b){
 	return *a - *b;
 }
