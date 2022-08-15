@@ -15,7 +15,6 @@ int main()
 
 	int x = 90;
 	int z = 100;
-	int w = 200;
 
 	int rezultat = sestej(&x,&z);
 	
