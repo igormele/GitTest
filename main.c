@@ -8,8 +8,8 @@
 int main()
 {
 
-	int x = 90;
-	int z = 100;
+	int x = 180;
+	int z = 300;
 
 	int rezultat = sestej(&x,&z);
 	
